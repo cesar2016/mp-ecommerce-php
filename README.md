@@ -1,37 +1,48 @@
-# mp-ecommerce
+<p align='center'>
+    <img src='https://i.postimg.cc/pXsn8K10/Whats-App-Image-2021-04-28-at-3-20-59-PM.jpg' </img>
+</p>
+<p align='center'>
+    <img src='https://i.postimg.cc/Hkj8tjqT/Whats-App-Image-2021-04-28-at-5-19-57-PM.jpg' </img>
+</p>
+<p align='center'>
+    <img src='https://i.postimg.cc/y85gpsKc/Whats-App-Image-2021-04-28-at-5-21-39-PM.jpg' </img>
+</p>
+<p align='center'>
+    <img src='https://i.postimg.cc/BvK8dkZy/Whats-App-Image-2021-04-28-at-5-22-53-PM.jpg' </img>
+</p>
+<p align='center'>
+    <img src='https://i.postimg.cc/PxnLhyPq/Whats-App-Image-2021-04-28-at-5-24-59-PM.jpg' </img>
+</p>
+ 
+                                                             ## - A P R O V E D / CHECK-OUT PRO- ##
+                                                      
+# PRUEBA INTEGRACION PARA CERTIFICACION 
+- Examen "Challenge" para obtener Certificacion que provee mercadopago a los developers
 
-Este e-commerce de ejemplo será la base para la integración de MercadoPago con `php`.
+## OBTENCION DE CERTIFICACION DE MERCADOPAGO
 
-## Antes de comenzar
+Al generar la preferencia de pago se debe:
+- Enviar la información del ítem que se está comprando.
+- Enviar los datos del pagador.
+- Enviar la URL donde se van a recibir las notificaciones de pago.
+- Enviar el número de orden (external_reference)
+- Limitar la cantidad de cuotas según lo solicitado.
+- No ofrecer los medios de pago según lo solicitados.
 
-Esta aplicación debe estar accesible mediante un dominio público en internet antes de comenzar con la integración y para ello usaremos [Heroku](https://heroku.com).
 
-Requisitos para realizar la integración: 
-* Cuenta en GitHub.
-* Cuenta en [Heroku](https://heroku.com).
+## SE EVALUO
 
-## Haciendo pública mi e-commerce de ejemplo
+1) Se revisará la completitud de la preferencia de pago generada para el inicio del flujo
+de pago (incluyendo el integrator_id) según la información facilitada en este ejercicio.
+2) Se revisará el correcto manejo de las back_url para los diferentes estados de pagos.
+3) Deberás desarrollar un receptor de notificaciones y especificarlo en notifications_url.
+Se revisará el correcto manejo de estas notificaciones de pago. Será necesario que
+nos envíes el JSON que recibas en el URL de notificaciones, se revisará que
+coincida con la preferencia generada.
+4) Se verificará que se haya incluido correctamente el script de seguridad para el
+comportamiento del usuario en las páginas de tu ejercicio.
+5) Se revisará que en la página de éxito de back_urls muestre los campos requeridos
+indicados en el ejercicio.
 
-1. Realizar un fork de este proyecto. Considerando que tu usuario de GitHub es `username`, tendremos el repositorio https://github.com/username/mp-ecommerce-php
-2. Ingresar a tu cuenta de Heroku
-3. Crear una aplicación en Heroku para realizar el deploy de nuestro e-commerce. Nombrarla de la siguiente manera *username*-mp-commerce-php. Ejemplo:
-<div style="text-align: center;" >
-<img src="docs/step0.png" width=400 />
-</div>
 
-4. Conectar a nuestra aplicación en Heroku el repositorio "forkeado" en el paso 1
-<div style="text-align: center;" >
-<img src="docs/step1.png" width=800 />
-</div>
-
-5. Activar el deploy autómatico ante cualquier cambio en el branch "master". Realizar un deploy manualmente, mediante la opción "Deploy branch" para comprobar que la app esté funcionando correctamente.
-
-<div style="text-align: center;" >
-<img src="docs/step2.png" width=800 />
-</div>
-
-6. Nuevamente considerando que tu usuario de GitHub es `username` (substituir en la URL por el correcto), acceder a https://username-mp-ecommerce-php.herokuapp.com/ y validar que la app esté corriendo. Deberás visualizar algo como lo siguiente
-
-<div style="text-align: center;" >
-<img src="docs/step3.png" width=800 />
-</div>
+### cesars.pro@gmail.com
